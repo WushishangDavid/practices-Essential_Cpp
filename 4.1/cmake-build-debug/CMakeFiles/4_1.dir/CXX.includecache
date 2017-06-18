@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/wushishang/Desktop/Essential_C++/practice/4.1/Stack.cpp
+/Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/Stack.cpp
 Stack.h
-/Users/wushishang/Desktop/Essential_C++/practice/4.1/Stack.h
+/Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/Stack.h
 
-/Users/wushishang/Desktop/Essential_C++/practice/4.1/Stack.h
+/Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/Stack.h
 string
 -
 vector
 -
 
-/Users/wushishang/Desktop/Essential_C++/practice/4.1/main.cpp
+/Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/main.cpp
 iostream
 -
 Stack.h
-/Users/wushishang/Desktop/Essential_C++/practice/4.1/Stack.h
+/Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/Stack.h
 

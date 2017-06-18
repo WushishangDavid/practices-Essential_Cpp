@@ -26,6 +26,8 @@ bool Stack::pop(string& elem){
         return false;
 
     elem = _stack.back();
+
     _stack.pop_back();
+
     return true;
 }

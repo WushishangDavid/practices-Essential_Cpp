@@ -15,13 +15,15 @@ public:
     bool full();
 
     int size(){return _stack.size();}
+    void set_max_size(int size){_max_size = size;}
 
 private:
     vector<string> _stack;
+    int _max_size = 1000;
 };
 
 inline bool Stack::full(){
-    return size() == _stack.max_size();
+    return size() == _max_size;
 }
 
 inline bool Stack::empty() {

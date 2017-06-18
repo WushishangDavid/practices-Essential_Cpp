@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wushishang/Desktop/Essential_C++/practice/4.1
+CMAKE_SOURCE_DIR = /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wushishang/Desktop/Essential_C++/practice/4.1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/4_1.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/4_1.dir/flags.make
 
 CMakeFiles/4_1.dir/main.cpp.o: CMakeFiles/4_1.dir/flags.make
 CMakeFiles/4_1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wushishang/Desktop/Essential_C++/practice/4.1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4_1.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4_1.dir/main.cpp.o -c /Users/wushishang/Desktop/Essential_C++/practice/4.1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4_1.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4_1.dir/main.cpp.o -c /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/main.cpp
 
 CMakeFiles/4_1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_1.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wushishang/Desktop/Essential_C++/practice/4.1/main.cpp > CMakeFiles/4_1.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/main.cpp > CMakeFiles/4_1.dir/main.cpp.i
 
 CMakeFiles/4_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_1.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wushishang/Desktop/Essential_C++/practice/4.1/main.cpp -o CMakeFiles/4_1.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/main.cpp -o CMakeFiles/4_1.dir/main.cpp.s
 
 CMakeFiles/4_1.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/4_1.dir/main.cpp.o.provides.build: CMakeFiles/4_1.dir/main.cpp.o
 
 CMakeFiles/4_1.dir/Stack.cpp.o: CMakeFiles/4_1.dir/flags.make
 CMakeFiles/4_1.dir/Stack.cpp.o: ../Stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wushishang/Desktop/Essential_C++/practice/4.1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/4_1.dir/Stack.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4_1.dir/Stack.cpp.o -c /Users/wushishang/Desktop/Essential_C++/practice/4.1/Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/4_1.dir/Stack.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4_1.dir/Stack.cpp.o -c /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/Stack.cpp
 
 CMakeFiles/4_1.dir/Stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_1.dir/Stack.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wushishang/Desktop/Essential_C++/practice/4.1/Stack.cpp > CMakeFiles/4_1.dir/Stack.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/Stack.cpp > CMakeFiles/4_1.dir/Stack.cpp.i
 
 CMakeFiles/4_1.dir/Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_1.dir/Stack.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wushishang/Desktop/Essential_C++/practice/4.1/Stack.cpp -o CMakeFiles/4_1.dir/Stack.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/Stack.cpp -o CMakeFiles/4_1.dir/Stack.cpp.s
 
 CMakeFiles/4_1.dir/Stack.cpp.o.requires:
 
@@ -117,7 +117,7 @@ CMakeFiles/4_1.dir/Stack.cpp.o.provides.build: CMakeFiles/4_1.dir/Stack.cpp.o
 4_1: CMakeFiles/4_1.dir/Stack.cpp.o
 4_1: CMakeFiles/4_1.dir/build.make
 4_1: CMakeFiles/4_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wushishang/Desktop/Essential_C++/practice/4.1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 4_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 4_1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/4_1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/4_1.dir/clean:
 .PHONY : CMakeFiles/4_1.dir/clean
 
 CMakeFiles/4_1.dir/depend:
-	cd /Users/wushishang/Desktop/Essential_C++/practice/4.1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wushishang/Desktop/Essential_C++/practice/4.1 /Users/wushishang/Desktop/Essential_C++/practice/4.1 /Users/wushishang/Desktop/Essential_C++/practice/4.1/cmake-build-debug /Users/wushishang/Desktop/Essential_C++/practice/4.1/cmake-build-debug /Users/wushishang/Desktop/Essential_C++/practice/4.1/cmake-build-debug/CMakeFiles/4_1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1 /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1 /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/cmake-build-debug /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/cmake-build-debug /Users/wushishang/Desktop/Essential_C++/practices-Essential_Cpp/4.1/cmake-build-debug/CMakeFiles/4_1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/4_1.dir/depend
 
