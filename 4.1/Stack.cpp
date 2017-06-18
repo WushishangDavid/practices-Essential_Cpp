@@ -31,3 +31,12 @@ bool Stack::pop(string& elem){
 
     return true;
 }
+
+bool Stack::find(const string& elem) const{
+    return ::find(_stack.begin(), _stack.end(), elem) != _stack.end();
+}
+
+long Stack::count(const string& elem) const {
+    return ::count(_stack.begin(), _stack.end(), elem);
+}
+

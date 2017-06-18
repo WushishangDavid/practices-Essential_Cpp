@@ -49,8 +49,22 @@ int main() {
         return 0;
     }
 
-    cout<<'\n'<<"Read in " << st.size() << " strings!\n"
-        << "The strings in reverse order: \n";
+    cout<<'\n'<<"Read in " << st.size() << " strings!\n";
+
+    // Eliminate EOF
+    cin.clear();
+
+    cout << "What word to search for? ";
+    cin >> str;
+
+    bool found = st.find(str);
+    long count = found ? st.count(str) : 0;
+
+    cout << str << (found ? " is " : " is not ") << "found in the stack.\n";
+    if(found)
+        cout << "It occurs " << count << " times." << endl;
+
+    cout<< "The strings in reverse order: \n";
 
     while(st.size()){
         st.pop(str);

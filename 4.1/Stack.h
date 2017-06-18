@@ -3,6 +3,7 @@
 //
 #include <string>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 class Stack {
@@ -12,17 +13,19 @@ public:
     bool peek(string&);
 
     bool empty();
-    bool full();
+    bool full() const;
 
-    int size(){return _stack.size();}
+    unsigned long size() const {return _stack.size();}
     void set_max_size(int size){_max_size = size;}
+    bool find(const string&) const;
+    long count(const string&) const;
 
 private:
     vector<string> _stack;
     int _max_size = 1000;
 };
 
-inline bool Stack::full(){
+inline bool Stack::full() const{
     return size() == _max_size;
 }
 
